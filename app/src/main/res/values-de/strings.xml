@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    NothingPacker – offline APK ⇄ IPA toolkit for Android
+    Copyright (C) 2026 Real3rr0r303YT
+    SPDX-License-Identifier: GPL-3.0-or-later
+    Licensed under the GNU GPL v3. See LICENSE for details.
+-->
+<resources>
+    <!-- Start -->
+    <string name="home_title">PACKER</string>
+    <string name="home_tagline">APK- und IPA-Dateien analysieren, entpacken und umpacken – komplett auf diesem Gerät.</string>
+    <string name="home_offline">OFFLINE · OHNE INTERNET-BERECHTIGUNG</string>
+    <string name="home_pick">APK oder IPA wählen</string>
+    <string name="home_apk_to_ipa_text">Android-Paket → iOS-App-Struktur</string>
+    <string name="home_ipa_to_apk_text">iOS-Paket → Android-App-Struktur</string>
+    <string name="home_how_title">SO FUNKTIONIERT ES</string>
+    <string name="home_step_analyse">Analysieren – Manifest, Info.plist, Berechtigungen, Komponenten und jede Datei.</string>
+    <string name="home_step_extract">Entpacken – Assets, Ressourcen und lesbare Metadaten in einen Ordner deiner Wahl.</string>
+    <string name="home_step_convert">Umpacken – ein Struktur-Archiv für die andere Plattform: erzeugte Metadaten, Icon, Assets und Ressourcen.</string>
+    <string name="home_limit">Programmcode lässt sich nicht zwischen Android und iOS übersetzen. Konvertierte Archive sind die Basis für einen nativen Neubau, keine installierbaren Apps.</string>
+    <string name="home_loading">Paket wird gelesen…</string>
+
+    <!-- Analyse -->
+    <string name="analysis_files">DATEIEN</string>
+    <string name="analysis_permissions">RECHTE</string>
+    <string name="analysis_components">KOMPONENTEN</string>
+    <string name="tab_overview">Übersicht</string>
+    <string name="tab_permissions">Berechtigungen</string>
+    <string name="tab_components">Komponenten</string>
+    <string name="tab_files">Dateien</string>
+    <string name="tab_manifest">Manifest</string>
+    <string name="field_identifier">Kennung</string>
+    <string name="field_version">Version</string>
+    <string name="field_build">Build</string>
+    <string name="field_min_os">Mindest-OS</string>
+    <string name="field_target_os">Ziel-OS</string>
+    <string name="field_file_size">Dateigröße</string>
+    <string name="field_unpacked_size">Entpackt</string>
+    <string name="field_architectures">Architekturen</string>
+    <string name="field_signature">Signatur</string>
+    <string name="field_unsigned">nicht signiert</string>
+    <string name="field_none">–</string>
+    <string name="analysis_empty_permissions">Keine Berechtigungen angefordert.</string>
+    <string name="analysis_empty_components">Keine Komponenten gefunden.</string>
+    <string name="analysis_manifest_truncated">Die ersten %1$d Zeilen werden angezeigt. Entpacke die Metadaten für die vollständige Datei.</string>
+    <string name="analysis_convert_title">UMPACKEN</string>
+    <string name="analysis_convert_text">Erstellt ein %1$s-Struktur-Archiv mit erzeugten Metadaten, dem Icon und allen portablen Assets und Ressourcen. Programmcode wird nicht kopiert.</string>
+    <string name="action_convert">In %1$s umwandeln</string>
+    <string name="action_extract">Entpacken</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="action_back">Zurück</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_open">Öffnen</string>
+    <string name="action_retry">Andere Datei wählen</string>
+    <string name="error_title">Datei kann nicht gelesen werden</string>
+    <string name="error_unsupported">Das ist weder eine APK noch eine IPA.</string>
+    <string name="error_aab">Android App Bundles (.aab) werden nicht unterstützt – bitte eine APK verwenden.</string>
+    <string name="error_damaged">Die Datei ist beschädigt oder nutzt ein nicht unterstütztes Format.</string>
+    <string name="error_io">Die Datei konnte nicht geöffnet werden.</string>
+    <string name="job_converting">Wird umgewandelt…</string>
+    <string name="job_extracting">Wird entpackt…</string>
+    <string name="msg_converted">%1$d Dateien im Struktur-Archiv gespeichert.</string>
+    <string name="msg_extracted">%1$d Dateien entpackt.</string>
+    <string name="msg_failed">Fehlgeschlagen: %1$s</string>
+    <string name="msg_cancelled">Abgebrochen.</string>
+
+    <string name="extract_title">Entpacken</string>
+    <string name="extract_text">Wähle aus, was exportiert werden soll. Danach wählst du den Zielordner.</string>
+
+    <string name="category_code">Code</string>
+    <string name="category_native">Native Bibliotheken</string>
+    <string name="category_frameworks">Frameworks</string>
+    <string name="category_resources">Ressourcen</string>
+    <string name="category_assets">Assets</string>
+    <string name="category_metadata">Metadaten (lesbar)</string>
+    <string name="category_signature">Signatur</string>
+    <string name="category_other">Sonstiges</string>
+    <string name="category_all">Alle</string>
+
+    <string name="component_activity">Activity</string>
+    <string name="component_service">Service</string>
+    <string name="component_receiver">Receiver</string>
+    <string name="component_provider">Provider</string>
+    <string name="component_url_scheme">URL-Schema</string>
+    <string name="component_app_extension">App-Erweiterung</string>
+    <string name="component_framework">Framework</string>
+
+    <string name="warning_encrypted">Die iOS-Programmdatei ist mit FairPlay verschlüsselt (App-Store-Download). Metadaten und Ressourcen sind trotzdem lesbar.</string>
+    <string name="warning_debuggable">Die App ist als debuggable markiert.</string>
+    <string name="warning_cleartext">Die App erlaubt unverschlüsselten HTTP-Verkehr.</string>
+    <string name="warning_unsigned">Das Paket ist nicht signiert.</string>
+    <string name="warning_split">Das ist eine Split-APK – der Großteil der App steckt in der Basis-APK.</string>
+
+    <!-- Einstellungen -->
+    <string name="settings_title">EINSTELLUNGEN</string>
+    <string name="settings_section_language">SPRACHE</string>
+    <string name="settings_language_system">Systemsprache</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_de">Deutsch</string>
+    <string name="settings_section_privacy">PRIVATSPHÄRE</string>
+    <string name="settings_offline_title">100 % offline</string>
+    <string name="settings_offline_text">NothingPacker besitzt keine Internet-Berechtigung. Android blockiert jede Netzwerkverbindung – deine Pakete verlassen dieses Gerät nie.</string>
+    <string name="settings_storage_title">Keine Speicher-Berechtigung</string>
+    <string name="settings_storage_text">Dateien werden nur über die System-Dateiauswahl geöffnet und genau dort gespeichert, wo du es festlegst.</string>
+    <string name="settings_section_workspace">ARBEITSBEREICH</string>
+    <string name="settings_workspace_title">Temporäre Dateien</string>
+    <string name="settings_workspace_text">Geöffnete Pakete werden während der Analyse in den App-Cache kopiert. Aktuell %1$s.</string>
+    <string name="settings_workspace_clear">Jetzt leeren</string>
+    <string name="settings_workspace_cleared">Temporäre Dateien gelöscht.</string>
+    <string name="settings_section_support">UNTERSTÜTZEN</string>
+    <string name="settings_donate_title">Buy Me a Coffee</string>
+    <string name="settings_donate_text">NothingPacker ist kostenlos und Open Source. Wenn dir die App hilft, kannst du die Entwicklung unterstützen.</string>
+    <string name="dialog_donate_title">App verlassen?</string>
+    <string name="dialog_donate_text">Dadurch wird buymeacoffee.com/3rr0r303yt in deinem Browser geöffnet. NothingPacker selbst bleibt offline und teilt nichts.</string>
+    <string name="donate_no_browser">Kein Browser gefunden.</string>
+    <string name="settings_section_about">ÜBER</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_license">Lizenziert unter der GNU GPL v3.0</string>
+    <string name="settings_legal">Analysiere und konvertiere nur Apps, die dir gehören oder die du verändern darfst.</string>
+
+    <plurals name="file_count">
+        <item quantity="one">%d Datei</item>
+        <item quantity="other">%d Dateien</item>
+    </plurals>
+</resources>

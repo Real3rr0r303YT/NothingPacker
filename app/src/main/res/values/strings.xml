@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    NothingPacker – offline APK ⇄ IPA toolkit for Android
+    Copyright (C) 2026 Real3rr0r303YT
+    SPDX-License-Identifier: GPL-3.0-or-later
+    Licensed under the GNU GPL v3. See LICENSE for details.
+-->
+<resources>
+    <string name="app_name" translatable="false">NothingPacker</string>
+
+    <!-- Home -->
+    <string name="home_title">PACKER</string>
+    <string name="home_tagline">Analyse, extract and re-package APK and IPA files – entirely on this device.</string>
+    <string name="home_offline">OFFLINE · NO INTERNET PERMISSION</string>
+    <string name="home_pick">Choose APK or IPA</string>
+    <string name="home_apk_to_ipa_text">Android package → iOS app structure</string>
+    <string name="home_ipa_to_apk_text">iOS package → Android app structure</string>
+    <string name="home_how_title">HOW IT WORKS</string>
+    <string name="home_step_analyse">Analyse – manifest, Info.plist, permissions, components and every file.</string>
+    <string name="home_step_extract">Extract – assets, resources and readable metadata into a folder you choose.</string>
+    <string name="home_step_convert">Re-package – a structure archive for the other platform: generated metadata, icon, assets and resources.</string>
+    <string name="home_limit">Program code cannot be translated between Android and iOS. Converted archives are a starting point for a native rebuild, not installable apps.</string>
+    <string name="home_loading">Reading package…</string>
+
+    <!-- Analysis -->
+    <string name="analysis_files">FILES</string>
+    <string name="analysis_permissions">PERMISSIONS</string>
+    <string name="analysis_components">COMPONENTS</string>
+    <string name="tab_overview">Overview</string>
+    <string name="tab_permissions">Permissions</string>
+    <string name="tab_components">Components</string>
+    <string name="tab_files">Files</string>
+    <string name="tab_manifest">Manifest</string>
+    <string name="field_identifier">Identifier</string>
+    <string name="field_version">Version</string>
+    <string name="field_build">Build</string>
+    <string name="field_min_os">Minimum OS</string>
+    <string name="field_target_os">Target OS</string>
+    <string name="field_file_size">File size</string>
+    <string name="field_unpacked_size">Unpacked</string>
+    <string name="field_architectures">Architectures</string>
+    <string name="field_signature">Signature</string>
+    <string name="field_unsigned">not signed</string>
+    <string name="field_none">–</string>
+    <string name="analysis_empty_permissions">No permissions requested.</string>
+    <string name="analysis_empty_components">No components found.</string>
+    <string name="analysis_manifest_truncated">Showing the first %1$d lines. Extract the metadata for the complete file.</string>
+    <string name="analysis_convert_title">RE-PACKAGE</string>
+    <string name="analysis_convert_text">Creates a %1$s structure archive with generated metadata, the icon and all portable assets and resources. No program code is copied.</string>
+    <string name="action_convert">Convert to %1$s</string>
+    <string name="action_extract">Extract</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_back">Back</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_open">Open</string>
+    <string name="action_retry">Choose another file</string>
+    <string name="error_title">Cannot read this file</string>
+    <string name="error_unsupported">This is neither an APK nor an IPA.</string>
+    <string name="error_aab">Android App Bundles (.aab) are not supported – use an APK.</string>
+    <string name="error_damaged">The file is damaged or uses an unsupported format.</string>
+    <string name="error_io">The file could not be opened.</string>
+    <string name="job_converting">Converting…</string>
+    <string name="job_extracting">Extracting…</string>
+    <string name="msg_converted">Saved %1$d files to the structure archive.</string>
+    <string name="msg_extracted">Extracted %1$d files.</string>
+    <string name="msg_failed">Failed: %1$s</string>
+    <string name="msg_cancelled">Cancelled.</string>
+
+    <string name="extract_title">Extract</string>
+    <string name="extract_text">Choose what to export. You pick the destination folder next.</string>
+
+    <string name="category_code">Code</string>
+    <string name="category_native">Native libraries</string>
+    <string name="category_frameworks">Frameworks</string>
+    <string name="category_resources">Resources</string>
+    <string name="category_assets">Assets</string>
+    <string name="category_metadata">Metadata (readable)</string>
+    <string name="category_signature">Signature</string>
+    <string name="category_other">Other</string>
+    <string name="category_all">All</string>
+
+    <string name="component_activity">Activity</string>
+    <string name="component_service">Service</string>
+    <string name="component_receiver">Receiver</string>
+    <string name="component_provider">Provider</string>
+    <string name="component_url_scheme">URL scheme</string>
+    <string name="component_app_extension">App extension</string>
+    <string name="component_framework">Framework</string>
+
+    <string name="warning_encrypted">The iOS executable is FairPlay-encrypted (App Store download). Metadata and resources are still readable.</string>
+    <string name="warning_debuggable">The app is marked as debuggable.</string>
+    <string name="warning_cleartext">The app allows unencrypted HTTP traffic.</string>
+    <string name="warning_unsigned">The package has no signature.</string>
+    <string name="warning_split">This is a split APK – the base APK holds most of the app.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">SETTINGS</string>
+    <string name="settings_section_language">LANGUAGE</string>
+    <string name="settings_language_system">System default</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_de">Deutsch</string>
+    <string name="settings_section_privacy">PRIVACY</string>
+    <string name="settings_offline_title">100 % offline</string>
+    <string name="settings_offline_text">NothingPacker has no internet permission. Android blocks every network connection – your packages never leave this device.</string>
+    <string name="settings_storage_title">No storage permission</string>
+    <string name="settings_storage_text">Files are opened and saved only through the system file picker, exactly where you choose.</string>
+    <string name="settings_section_workspace">WORKSPACE</string>
+    <string name="settings_workspace_title">Temporary files</string>
+    <string name="settings_workspace_text">Opened packages are copied to the app cache while you inspect them. Currently %1$s.</string>
+    <string name="settings_workspace_clear">Clear now</string>
+    <string name="settings_workspace_cleared">Temporary files deleted.</string>
+    <string name="settings_section_support">SUPPORT</string>
+    <string name="settings_donate_title">Buy Me a Coffee</string>
+    <string name="settings_donate_text">NothingPacker is free and open source. If it helps you, you can support development.</string>
+    <string name="dialog_donate_title">Leave the app?</string>
+    <string name="dialog_donate_text">This opens buymeacoffee.com/3rr0r303yt in your browser. NothingPacker itself stays offline and shares nothing.</string>
+    <string name="donate_no_browser">No browser found.</string>
+    <string name="settings_section_about">ABOUT</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_license">Licensed under the GNU GPL v3.0</string>
+    <string name="settings_legal">Only analyse and convert apps you own or are allowed to modify.</string>
+    <string name="settings_copyright" translatable="false">© 2026 Real3rr0r303YT</string>
+
+    <plurals name="file_count">
+        <item quantity="one">%d file</item>
+        <item quantity="other">%d files</item>
+    </plurals>
+</resources>
