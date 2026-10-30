@@ -91,7 +91,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-const val DONATION_URL = "https://www.buymeacoffee.com/3rr0r303yt"
+const val DONATION_URL = "https://buymeacoffee.com/3rr0r303YT"
 
 private enum class AppLanguage(val tag: String, val label: Int) {
     SYSTEM("", R.string.settings_language_system),

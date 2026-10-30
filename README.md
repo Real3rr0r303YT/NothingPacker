@@ -82,7 +82,7 @@ libraries, no native code.
 
 ## Support
 
-If NothingPacker helps you: [☕ Buy Me a Coffee](https://www.buymeacoffee.com/3rr0r303yt)
+If NothingPacker helps you: [☕ Buy Me a Coffee](https://buymeacoffee.com/3rr0r303YT)
 
 ---
 
@@ -111,3 +111,5 @@ of the License, or (at your option) any later version. See [LICENSE](LICENSE).
 
 NothingPacker is an unofficial fan project and is not affiliated with Nothing Technology Limited,
 Google LLC or Apple Inc. Android is a trademark of Google LLC; iOS is a trademark of Apple Inc.
+
+<p align="center"><b>Made by <a href="https://github.com/Real3rr0r303YT">Real3rr0r303YT</a></b></p>
